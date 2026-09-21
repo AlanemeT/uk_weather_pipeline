@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.ukwpenv/
+ukwpenv/
+
+# Environment secrets
+.env
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Pipeline generated data
+data/raw/*
+data/clean/*
+data/transform/*
+
+# Keep folders in Git
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+!data/transform/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Docker files not committed for this project
+Dockerfile
+docker-compose.yml
+
+*.egg-info/
