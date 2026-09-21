@@ -1,7 +1,5 @@
 # UK Weather Data Pipeline
 
-# UK Weather Data Pipeline
-
 ## Overview
 
 This project implements an incremental Python data pipeline that collects hourly weather data for multiple UK cities using the free Open-Meteo API.
